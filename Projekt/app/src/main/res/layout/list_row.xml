@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/miasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Miasto"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/temperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/miasto"
+        android:layout_centerHorizontal="true"
+        android:text="Temperatura"
+
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/wilgotnosc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temperatura"
+        android:layout_centerHorizontal="true"
+        android:text="Wilgotnosc"
+
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cisnienie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wilgotnosc"
+        android:layout_centerHorizontal="true"
+        android:text="Ciśnienie"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/zachmurzenie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cisnienie"
+        android:layout_centerHorizontal="true"
+        android:text="Zachmurzenie"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/opad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zachmurzenie"
+        android:layout_centerHorizontal="true"
+        android:text="Opad"
+        android:textSize="18sp" />
+
+</RelativeLayout>
